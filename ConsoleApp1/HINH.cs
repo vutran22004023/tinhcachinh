@@ -9,6 +9,7 @@ namespace ConsoleApp1
     abstract class HINH
     {
         protected string tenHinh;
+        
 
         public string TenHinh { get => this.tenHinh; set => this.tenHinh = value; }
 
@@ -21,14 +22,45 @@ namespace ConsoleApp1
 
         public virtual void Nhap ()
         {
-            Console.WriteLine("Nhap Hinh :");
-            this.tenHinh = Console.ReadLine();
+            
         }
         public virtual void Xuat()
         {
             Console.WriteLine("Hinh: " + tenHinh);
         }
-        
+
+        public virtual void Chuvitamgiac()
+        {
+
+        }
+        public virtual void Dientichtamgiac_vuong()
+        {
+
+        }
+        public virtual void Dientichtamgiac_can()
+        {
+
+        }
+
+        public virtual void chuvi()
+        {
+
+        }
+
+        public virtual void dientich()
+        {
+
+        }
+
+        public virtual void Chuvihinhtron()
+        {
+
+        }
+
+        public virtual void Dientichhinhtron()
+        {
+
+        }
     }
 
 
