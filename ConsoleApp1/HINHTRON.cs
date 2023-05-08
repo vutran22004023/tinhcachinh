@@ -40,12 +40,14 @@ namespace ConsoleApp1
 
             B = (R * 2) * M;
             Console.WriteLine("Chu vi hinh tron ={0}" + B);
+            Console.WriteLine(Console.ReadLine());
         }
 
         public override void Dientichhinhtron()
         {
             B = R * R * M;
             Console.WriteLine("Dien Tich hinh tron ={0}" + B);
+            Console.WriteLine(Console.ReadLine());
         }
     }
 }

@@ -40,6 +40,7 @@ namespace ConsoleApp1
             this.C = float.Parse(Console.ReadLine());
             D = A + B + C;
             Console.WriteLine("Chu vi tam giac:" + D);
+            Console.WriteLine(Console.ReadLine());
          }
 
         public override void Dientichtamgiac_vuong()
@@ -50,6 +51,7 @@ namespace ConsoleApp1
             this.B = float.Parse(Console.ReadLine());
             D = 1/2 * (A * B);
             Console.WriteLine("Dien tich tam giac vuong:" + D);
+            Console.WriteLine(Console.ReadLine());
 
         }
         public override void Dientichtamgiac_can()
@@ -60,6 +62,7 @@ namespace ConsoleApp1
             this.B = float.Parse(Console.ReadLine());
             D = 1/2 * A * B;
             Console.WriteLine("Dien tich tam giac Can:" + D);
+            Console.WriteLine(Console.ReadLine());
 
         }
     }

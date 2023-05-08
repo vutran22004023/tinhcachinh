@@ -37,12 +37,14 @@ namespace ConsoleApp1
         {
             C = 2 * (A + B);
             Console.WriteLine("Chu vi hinh chu nhat = " + C);
+            Console.WriteLine(Console.ReadLine());
         }
 
         public override void dientich()
         {
             C = A * B;
             Console.WriteLine("Dien tich hinh chu nhat = " + C);
+            Console.WriteLine(Console.ReadLine());
         }
     }
 }

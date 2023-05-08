@@ -38,6 +38,11 @@ namespace ConsoleApp1
                             ds.hinhchunhat();
                             break;
                         }
+                    case 3:
+                        {
+                            ds.hinhtron();
+                            break;
+                        }
 
                
                     default:
